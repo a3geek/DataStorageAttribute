@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-namespace a3geek.Attributes.DataStorage.Editors
+namespace Attributes.DataStorage.Editors
 {
     [CustomEditor(typeof(DataStorageController))]
     public class DataStorageControllerInspector : Editor

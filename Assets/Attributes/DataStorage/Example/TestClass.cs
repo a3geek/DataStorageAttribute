@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System;
 
-namespace a3geek.Attributes.DataStorage.Examples
+namespace Attributes.DataStorage.Examples
 {
     using Common;
 

@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace a3geek.Attributes.Common
+namespace Attributes.Common
 {
     public static class TypeExtender
     {

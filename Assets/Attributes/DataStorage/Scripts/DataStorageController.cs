@@ -9,7 +9,7 @@ using System.Reflection;
 using UnityEditor;
 #endif
 
-namespace a3geek.Attributes.DataStorage
+namespace Attributes.DataStorage
 {
     using Common;
     using Components;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace a3geek.Attributes.Common
+namespace Attributes.Common
 {
     public static class GameObjectExtender
     {

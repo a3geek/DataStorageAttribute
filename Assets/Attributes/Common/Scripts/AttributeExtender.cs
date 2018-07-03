@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Linq;
 
-namespace a3geek.Attributes.Common
+namespace Attributes.Common
 {
     public static class AttributeExtender
     {

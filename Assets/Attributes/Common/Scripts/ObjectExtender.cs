@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace a3geek.Attributes.Common
+namespace Attributes.Common
 {
     public static class ObjectExtender
     {

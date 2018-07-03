@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace a3geek.Attributes
+namespace Attributes
 {
     /// <summary>
     /// 保存対象として指定するアトリビュート.

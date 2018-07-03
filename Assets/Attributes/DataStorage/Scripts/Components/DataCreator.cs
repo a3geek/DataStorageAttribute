@@ -4,7 +4,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace a3geek.Attributes.DataStorage.Components
+namespace Attributes.DataStorage.Components
 {
     using Common;
 

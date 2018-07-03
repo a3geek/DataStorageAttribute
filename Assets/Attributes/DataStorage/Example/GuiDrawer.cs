@@ -2,7 +2,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace a3geek.Attributes.DataStorage.Examples
+namespace Attributes.DataStorage.Examples
 {
     using Common;
 

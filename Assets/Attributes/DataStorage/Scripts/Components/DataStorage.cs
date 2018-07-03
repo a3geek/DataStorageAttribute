@@ -4,7 +4,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace a3geek.Attributes.DataStorage.Components
+namespace Attributes.DataStorage.Components
 {
     using Common;
     using XmlStorage;
@@ -83,10 +83,10 @@ namespace a3geek.Attributes.DataStorage.Components
                 }
 
                 var value = field.GetValue(data.Component);
-                Storage.Set(field.FieldType, field.SaveKey, value);
+                XmlStorage.Storage.Set(field.FieldType, field.SaveKey, value);
             });
 
-            Storage.Save();
+            XmlStorage.Storage.Save();
         }
 
         /// <summary>
@@ -108,7 +108,7 @@ namespace a3geek.Attributes.DataStorage.Components
                     return;
                 }
 
-                var value = Storage.Get(field.FieldType, field.SaveKey, default(object));
+                var value = XmlStorage.Storage.Get(field.FieldType, field.SaveKey, default(object));
                 if(value == null)
                 {
                     return;

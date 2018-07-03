@@ -2,7 +2,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace a3geek.Attributes.DataStorage.Examples
+namespace Attributes.DataStorage.Examples
 {
     /// <summary>
     /// 継承時動作確認用テストクラス
